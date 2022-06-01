@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+cin>>a>>b>>c>>d>>e>>f>>g>>h;
+i=b*c;
+j=i/a;
+k=d*e;
+l=f/h;
+m=j/a;
+n=k/a;
+o=i/a;
+if(j<=k && j<=l)
+cout<<m;
+else if(k<=j && k<=l)
+cout<<n;
+else if(l<=j && l<=k)
+cout<<o;
+}
